@@ -1,0 +1,43 @@
+.add__book {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.add__book-content {
+    padding: 20px;
+    border: 1px solid var(--grey-color);
+    border-radius: 8px;
+    width: 90%;
+    max-width: 800px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.add__book-content h2 {
+    margin-top: 0;
+}
+
+.add__book-content form input {
+    width: calc(100% - 20px);
+    padding: 8px 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.add__book-content h2 {
+    padding: 20px 0;
+    color: var(--primary-button-color);
+    font-size: var(--font-18px);
+}
+
+.add__book-btn {
+    background-color: var(--secondary-button-color);
+    color: var(--white-color);
+    font-weight: 600;
+    letter-spacing: 1.5px;
+    padding: 5px 10px;
+    font-size: var(--font-18px);
+}
